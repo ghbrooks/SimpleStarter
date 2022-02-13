@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.hero {
+  background-image: url("/images/hero-m.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media only screen and (min-width: 800px) {
+    .hero {
+      background-image: url("/images/hero.jpg"); } }
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .hero__time {
+    display: flex;
+    justify-content: space-between;
+    max-width: 480px; }
+    .hero__time-box {
+      width: 100px;
+      height: 100px;
+      background-color: #fc0007; }

@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Starter</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/splide.min.js"></script>
   </head>
   <body>
-     Hello World!
+    <section class="hero">
+      <div class="hero__content">
+        <h1>UNIQLO MEMBER EXCLUSIVE OFFERS</h1>
+        <div class="hero__time">
+          <div id="hero__time-days" class="hero__time-box"></div>
+          <div id="hero__time-hours" class="hero__time-box"></div>
+          <div id="hero__time-minutes" class="hero__time-box"></div>
+          <div id="hero__time-seconds" class="hero__time-box"></div>
+        </div>
+        <p>
+          Save on our signature Ultra Light Down jackets and vests, made with
+          feather-light down padding, water-repellent outer fabric and a handy,
+          pocketable design.
+        </p>
+        <a>BECOME A MEMBER</a>
+      </div>
+    </section>
+    <section class="carousel">
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="images/carousel-1.jpg"></li>
+            <li class="splide__slide"><img src="images/carousel-2.jpg"></li>
+            <li class="splide__slide"><img src="images/carousel-3.jpg"></li>
+            <li class="splide__slide"><img src="images/carousel-4.jpg"></li>
+            <li class="splide__slide"><img src="images/carousel-5.jpg"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="js/countdown.js"></script>
+    <script src="js/carousel.js"></script>
   </body>
 </html>
