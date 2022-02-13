@@ -1,0 +1,14 @@
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 56px 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; }
+
+.navbar {
+  height: 56px;
+  background: yellow; }
+
+.content {
+  height: 100%;
+  background: linear-gradient(225deg, #148bf2 0%, #22e29c 75%, #25f58a 100%, #27ff80 100%); }
